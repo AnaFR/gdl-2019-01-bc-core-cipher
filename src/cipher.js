@@ -22,10 +22,10 @@ window.cipher = {        //objeto
         return secreto;    
     },
 
-decode:function (desplazamientos, texto) {   // desencriptado
-    if (desplazamientos > 33) {
-        alert("Solo se permiten desplazamientos del 1 al 33");
-        return;
+    decode:function (desplazamientos, texto) {   // desencriptado
+        if (desplazamientos > 33) {
+            alert("Solo se permiten desplazamientos del 1 al 33");
+            return;
     }
     let revelado = "";
     let textoOriginal = texto;

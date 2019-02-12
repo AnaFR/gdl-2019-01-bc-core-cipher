@@ -1,6 +1,6 @@
 function comenzar() {
     document.getElementById("Instrucciones").style.display = "none";
-    document.getElementById("appView").style.display = "inline";
+    document.getElementById("appView").style.display = "block";
 }
 document.getElementById("comenzar").addEventListener ("click", comenzar);
 
@@ -31,12 +31,10 @@ function intentar(){
     document.getElementById("cajaTexto").value =" ";
     document.getElementById("cajaResultado").value = " ";
 }
-
 document.getElementById("intentar").addEventListener ("click", intentar);
 
 function regresar() {
     document.getElementById("appView").style.display = "none";
     document.getElementById("Instrucciones").style.display = "inline";
 }
-
 document.getElementById("Regresar").addEventListener ("click", regresar);
